@@ -24,6 +24,6 @@ public class Customer {
     private String email;
     private String address;
     private String phoneNumber;
-    private CustomerType type;
+    private CustomerType type=CustomerType.Normal;//default value
     private Set<Command> customerCommands =new HashSet<Command>();
 }
